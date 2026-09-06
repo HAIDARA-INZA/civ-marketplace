@@ -1,0 +1,31 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.microsoft.com/apk/res-auto"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Cercle extérieur / lettre C -->
+    <path
+        android:pathData="M 80,20 C 65,5 35,5 20,20 C 5,35 5,65 20,80 C 35,95 65,95 80,80"
+        android:strokeWidth="6"
+        android:strokeColor="#2563EB"
+        android:strokeLineCap="round" />
+
+    <!-- Icône Panier au centre -->
+    <path
+        android:pathData="M 35,40 L 65,40 L 60,70 L 40,70 Z"
+        android:fillColor="#F59E0B" />
+    <path
+        android:pathData="M 40,40 C 40,30 60,30 60,40"
+        android:strokeWidth="3"
+        android:strokeColor="#F59E0B"
+        android:strokeLineCap="round" />
+
+    <!-- Accentuation du "C" pour la Côte d'Ivoire -->
+    <path
+        android:pathData="M 80,20 L 70,30 M 80,80 L 70,70"
+        android:strokeWidth="4"
+        android:strokeColor="#2563EB"
+        android:strokeLineCap="round" />
+</vector>
